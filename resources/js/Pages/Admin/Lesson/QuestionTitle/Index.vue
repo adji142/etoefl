@@ -65,10 +65,10 @@
                                         </div>
                                     </td>
                                     <td>
-                                        <div class="d-flex order-actions">
-                                            <Link :href="`/admin/question-titles/${questionTitle.id}/questions`" class="ms-2"><i class='bx bx-grid-alt'></i></Link>
-                                            <Link :href="`/admin/question-titles/${questionTitle.id}/edit`" class="ms-2"><i class='bx bxs-edit'></i></Link>
-                                            <a href="#" @click.prevent="destroy(questionTitle.id)" class="ms-2"><i class="bx bxs-trash"></i></a>
+                                        <div class="btn-group">
+                                            <Link :href="`/admin/question-titles/${questionTitle.id}/questions`" class="btn btn-success btn-space">Tambah Data Soal</Link>
+                                            <Link :href="`/admin/question-titles/${questionTitle.id}/edit`" class="btn btn-warning btn-space">Edit</Link>
+                                            <a href="#" @click.prevent="destroy(questionTitle.id)" class="btn btn-danger btn-space">Hapus</a>
                                         </div>
                                     </td>
                                 </tr>

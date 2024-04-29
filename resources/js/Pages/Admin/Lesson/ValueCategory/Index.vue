@@ -57,10 +57,10 @@
                                     <td>{{ valueCategory.assessment_type == 1 ? 'Nilai = Jumlah Benar : Total Soal' : valueCategory.assessment_type  == 2 ? 'Nilai = Jumlah Jawaban Benar' : 'Nilai = Linear Scope' }}</td>
                                     <td>{{ valueCategory.section }}</td>
                                     <td>
-                                        <div class="d-flex order-actions">
-                                            <Link :href="`/admin/value-categories/${valueCategory.id}/detail-value-categories`" class="ms-1"><i class='bx bx-grid-alt'></i></Link>
-                                            <Link :href="`/admin/value-categories/${valueCategory.id}/edit`" class="ms-1"><i class='bx bxs-edit'></i></Link>
-                                            <a href="#" @click.prevent="destroy(valueCategory.id)" class="ms-1"><i class="bx bxs-trash"></i></a>
+                                        <div class="btn-group">
+                                            <Link :href="`/admin/value-categories/${valueCategory.id}/detail-value-categories`" class="btn btn-success btn-space">Isi Nilai</Link>
+                                            <Link :href="`/admin/value-categories/${valueCategory.id}/edit`" class="btn btn-warning btn-space">Edit</Link>
+                                            <a href="#" @click.prevent="destroy(valueCategory.id)" class="btn btn-danger btn-space">Hapus</a>
                                         </div>
                                     </td>
                                 </tr>

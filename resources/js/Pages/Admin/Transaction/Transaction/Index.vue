@@ -62,9 +62,9 @@
                                     </td>
 
                                     <td>
-                                        <div class="d-flex order-actions">
-                                            <Link :href="`/admin/transactions/${transaction.id}`" style="margin:5px;"><i class='bx bx-grid-alt'></i></Link>
-                                            <Link :href="`/admin/transactions/${transaction.id}/invoice`" style="margin:5px;"><i class='bx bx-credit-card-front'></i></Link>
+                                        <div class="btn-group">
+                                            <Link :href="`/admin/transactions/${transaction.id}`" class="btn btn-success btn-space">Lihat Detail</Link>
+                                            <Link :href="`/admin/transactions/${transaction.id}/invoice`" class="btn btn-warning btn-space">Lihat Invoice</Link>
                                         </div>
                                     </td>
                                 </tr>

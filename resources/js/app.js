@@ -34,10 +34,10 @@ createInertiaApp({
         },
         data() {
             return { 
-              appName   : "e-TOEFL" , 
+              appName   : "My LIA" , 
               wa        : "+6283814305092", 
-              copyright : "© 2023 E-TOEFL by Rumah AJI",
-              email     : "info@ujicoba.online",
+              copyright : "© 2024 by My LIA",
+              email     : "info@mylia.com",
               alamat    : "Jl. Raya Perjuangan Cikarang Barat Bekasi" 
             }
         },

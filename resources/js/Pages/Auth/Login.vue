@@ -41,7 +41,7 @@
                                                 </div>
                                             </div>
                                             <div class="d-grid gap-2">
-                                                <button type="submit" class="btn btn-success" :style="{ 'background-color': '#5fcf80', 'border-color': '#5fcf80'}">Login</button>
+                                                <button type="submit" class="btn btn-success" :style="{ 'background-color': '#0d6efd', 'border-color': '#0d6efd'}">Login</button>
                                             </div>
 
                                             <div class="text-center">

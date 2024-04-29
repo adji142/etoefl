@@ -55,9 +55,9 @@
                                         <span class="badge bg-danger" v-if="user.student.is_member == 0">Non-Member</span>
                                     </td>
                                     <td>
-                                        <div class="d-flex order-actions">
-                                            <Link :href="`/admin/students/${user.student.id}`" class="ms-2"><i class='bx bx-grid-alt'></i></Link>
-                                            <Link :href="`/admin/students/${user.student.id}/edit`" class="ms-2"><i class='bx bxs-edit'></i></Link>
+                                        <div class="btn-group">
+                                            <Link :href="`/admin/students/${user.student.id}`" class="btn btn-success btn-space">Lihat</Link>
+                                            <Link :href="`/admin/students/${user.student.id}/edit`" class="btn btn-warning btn-space">Edit</Link>
                                         </div>
                                     </td>
                                 </tr>

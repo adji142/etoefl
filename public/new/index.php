@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>My LIA e-TOEFL</title>
+  <title>My LIA</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -44,7 +44,7 @@
       <a href="index.html" class="logo d-flex align-items-center me-auto">
         <!-- Uncomment the line below if you also wish to use an image logo -->
         <!-- <img src="assets/img/logo.png" alt=""> -->
-        <h1 class="">My LIA</h1>
+        <h1 >My LIA</h1>
       </a>
 
       <nav id="navmenu" class="navmenu">
@@ -73,9 +73,9 @@
 
       <div class="container">
         <h2 data-aos="fade-up" data-aos-delay="100" class="">SELAMAT DATANG<br>TOEFL & TOEIC ONLINE TEST</h2>
-        <p data-aos="fade-up" data-aos-delay="200">e-TOEFL adalah platform untuk melakukan prediksi test yang terdiri dari banyak pilihan paket paket soal. Apakah Kamu Sudah punya akun ? <a href = "#"> Masuk Sekarang </a> kerjakan Test dan dapatkan e-Sertifikat sekarang juga.</p>
+        <p data-aos="fade-up" data-aos-delay="200">My LIA adalah platform untuk melakukan prediksi test yang terdiri dari banyak pilihan paket paket soal. Apakah Kamu Sudah punya akun ? <a href = "#"> Masuk Sekarang </a> kerjakan Test dan dapatkan e-Sertifikat sekarang juga.</p>
         <div class="d-flex mt-4" data-aos="fade-up" data-aos-delay="300">
-          <a href="courses.html" class="btn-get-started">Daftar e-TOEFL</a>
+          <a href="courses.html" class="btn-get-started">Daftar My LIA</a>
         </div>
       </div>
 
@@ -95,11 +95,11 @@
           <div class="col-lg-6 order-2 order-lg-1 content" data-aos="fade-up" data-aos-delay="200">
             <h3>Cara Kerja</h3>
             <p class="fst-italic">
-              Platform yang mudah digunakan akan mempermudah anda dalam melakukan Ujian TOEFL / TOEIC
+              Platform yang mudah digunakan akan mempermudah anda dalam melakukan Ujian TOEIC
               dan dapatkan sertifikat nya.
             </p>
             <ul>
-              <li><i class="bi bi-people"></i> <span>1. Buat Akun e-TOEFL</span></li>
+              <li><i class="bi bi-people"></i> <span>1. Buat Akun My LIA</span></li>
               <li><i class="bi bi-check-circle"></i> <span>Pilih Paket Ujian yang tersedia</span></li>
               <li><i class="bi bi-check-circle"></i> <span>Kerjakan Ujian</span></li>
               <li><i class="bi bi-check-circle"></i> <span>Dapatkan Ujian</span></li>
@@ -123,7 +123,7 @@
 
             <div class="col-lg-3" data-aos="fade-up" data-aos-delay="100">
               <div class="why-box">
-                <h3>Cara Kerja e-TOEFL</h3>
+                <h3>Cara Kerja My LIA</h3>
                 <p>
                   Platform yang mudah digunakan akan mempermudah anda dalam melakukan Ujian TOEFL / TOEIC
                   dan dapatkan sertifikat nya.
@@ -357,14 +357,14 @@
         <!-- Section Title -->
         <div class="container section-title" data-aos="fade-up">
           <h2>Sertifikat</h2>
-          <p class="">Sertifikat TOEFL & TOEIC</p>
+          <p class="">Sertifikat TOEIC</p>
         </div><!-- End Section Title -->
 
         <div class="container">
 
           <div class="row">
 
-            <div class="col-lg-6 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+            <!-- <div class="col-lg-6 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
               <div class="course-item">
                 <img src="assets/img/course-1.jpg" class="img-fluid" alt="...">
                 <div class="course-content">
@@ -377,7 +377,7 @@
                   <p class="description">
                     Et architecto provident deleniti facere repellat nobis iste. Id facere quia quae dolores dolorem tempore.
                   </p>
-                  <!-- <div class="trainer d-flex justify-content-between align-items-center">
+                  <div class="trainer d-flex justify-content-between align-items-center">
                     <div class="trainer-profile d-flex align-items-center">
                       <img src="assets/img/trainers/trainer-1-2.jpg" class="img-fluid" alt="">
                       <a href="" class="trainer-link">Antonio</a>
@@ -387,10 +387,11 @@
                       &nbsp;&nbsp;
                       <i class="bi bi-heart heart-icon"></i>&nbsp;65
                     </div>
-                  </div> -->
+                  </div>
                 </div>
               </div>
-            </div> <!-- End Course Item-->
+            </div>  -->
+            <!-- End Course Item-->
 
             <div class="col-lg-6 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
               <div class="course-item">

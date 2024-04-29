@@ -53,10 +53,10 @@
                                     <td>{{ faq.question }}</td>
                                     <td>{{ faq.created_at }}</td>
                                     <td>
-                                        <div class="d-flex order-actions">
-                                            <Link :href="`/admin/faqs/${faq.id}`" class="ms-2"><i class='bx bx-grid-alt'></i></Link>
-                                            <Link :href="`/admin/faqs/${faq.id}/edit`" class="ms-2"><i class='bx bxs-edit'></i></Link>
-                                            <a href="#" @click.prevent="destroy(faq.id)" class="ms-2"><i class="bx bxs-trash"></i></a>
+                                        <div class="btn-group">
+                                            <Link :href="`/admin/faqs/${faq.id}`" class="btn btn-success btn-space">Lihat</Link>
+                                            <Link :href="`/admin/faqs/${faq.id}/edit`" class="btn btn-warning btn-space">Edit</Link>
+                                            <a href="#" @click.prevent="destroy(faq.id)" class="btn btn-danger btn-space">Danger</a>
                                         </div>
                                     </td>
                                 </tr>

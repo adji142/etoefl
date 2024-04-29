@@ -13,6 +13,8 @@
                         <ol class="breadcrumb mb-0 p-0">
                             <li class="breadcrumb-item"><a href="javascript:;"><i class="bx bx-home-alt"></i></a>
                             </li>
+                            <li class="breadcrumb-item"><a href="/admin/question-titles" >Daftar Judul Soal</a>
+                            </li>
                             <li class="breadcrumb-item active" aria-current="page">Data Soal</li>
                         </ol>
                     </nav>
@@ -22,11 +24,6 @@
 
             <div class="card">
                 <div class="card-body">
-                    <div class="d-lg-flex align-items-center mb-4 gap-3">
-                        <div class="ms-auto">
-                            <Link href="/admin/question-titles" class="btn btn-primary mt-2 mt-lg-0">Kembali</Link>
-                        </div>
-                    </div>
                     <div class="table-responsive">
                         <table class="table mb-0">
                             <tbody>
@@ -133,9 +130,9 @@
                                     <div class="badge rounded-pill text-danger bg-light-danger p-2 text-uppercase" v-if="question.type == 2">Direction</div>
                                 </td>
                                 <td>
-                                    <div class="d-flex order-actions">
-                                        <Link :href="`/admin/question-titles/${questionTitle.id}/questions/${question.id}/edit`"><i class='bx bxs-edit'></i></Link>
-                                        <a href="#" @click.prevent="destroy(question.id)" class="ms-3"><i class="bx bxs-trash"></i></a>
+                                    <div class="btn-group">
+                                        <Link :href="`/admin/question-titles/${questionTitle.id}/questions/${question.id}/edit`" class="btn btn-warning btn-space">Edit</Link>
+                                        <a href="#" @click.prevent="destroy(question.id)" class="btn btn-success btn-space">Delete</a>
                                     </div>
                                 </td>
                             </tr>

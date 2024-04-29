@@ -131,7 +131,7 @@
                                                 <div class="col-12">
                                                     <br>
                                                     <div class="d-grid">
-                                                        <button type="submit" class="btn btn-primary" :style="{ 'background-color': '#5fcf80', 'border-color': '#5fcf80'}"><i class='bx bx-user'></i>Registrasi</button>
+                                                        <button type="submit" class="btn btn-primary" :style="{ 'background-color': '#0d6efd', 'border-color': '#0d6efd'}"><i class='bx bx-user'></i>Registrasi</button>
                                                     </div>
                                                 </div>
                                             </div>

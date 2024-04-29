@@ -48,8 +48,8 @@
                                     <td>{{ announcement.title }}</td>
                                     <td>{{ announcement.created_at }}</td>
                                     <td>
-                                        <div class="d-flex order-actions">
-                                            <Link :href="`/user/announcements/${announcement.id}`" class="ms-2"><i class='bx bx-grid-alt'></i></Link>
+                                        <div class="btn-group">
+                                            <Link :href="`/user/announcements/${announcement.id}`" class="btn btn-success btn-space">Lihat Data</Link>
                                         </div>
                                     </td>
                                 </tr>

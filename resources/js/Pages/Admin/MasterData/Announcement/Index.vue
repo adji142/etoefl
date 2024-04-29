@@ -53,10 +53,10 @@
                                     <td>{{ announcement.title }}</td>
                                     <td>{{ announcement.created_at }}</td>
                                     <td>
-                                        <div class="d-flex order-actions">
-                                            <Link :href="`/admin/announcements/${announcement.id}`" class="ms-2"><i class='bx bx-grid-alt'></i></Link>
-                                            <Link :href="`/admin/announcements/${announcement.id}/edit`" class="ms-2"><i class='bx bxs-edit'></i></Link>
-                                            <a href="#" @click.prevent="destroy(announcement.id)" class="ms-2"><i class="bx bxs-trash"></i></a>
+                                        <div class="btn-group">
+                                            <Link :href="`/admin/announcements/${announcement.id}`" class="btn btn-success btn-space">Lihat</Link>
+                                            <Link :href="`/admin/announcements/${announcement.id}/edit`" class="btn btn-warning btn-space">Edit</Link>
+                                            <a href="#" @click.prevent="destroy(announcement.id)" class="btn btn-danger btn-space">Hapus</a>
                                         </div>
                                     </td>
                                 </tr>

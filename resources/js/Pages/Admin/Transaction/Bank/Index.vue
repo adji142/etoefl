@@ -64,9 +64,9 @@
                                     <td>{{ bank.rekening_name }}</td>
                                     <td><span class="badge bg-success">{{ bank.status }}</span></td>
                                     <td>
-                                        <div class="d-flex order-actions">
-                                            <Link :href="`/admin/banks/${bank.id}/edit`" class="ms-2"><i class='bx bxs-edit'></i></Link>
-                                            <a href="#" @click.prevent="destroy(bank.id)" class="ms-2"><i class="bx bxs-trash"></i></a>
+                                        <div class="btn-group">
+                                            <Link :href="`/admin/banks/${bank.id}/edit`" class="btn btn-warning btn-space">Edit</Link>
+                                            <a href="#" @click.prevent="destroy(bank.id)" class="btn btn-danger btn-space">Hapus</a>
                                         </div>
                                     </td>
                                 </tr>

@@ -59,8 +59,8 @@
                                         <span class="badge bg-success" v-if="transaction.transaction_status == 'done'">Transaksi Selesai</span>
                                     </td>
                                     <td>
-                                        <div class="d-flex order-actions">
-                                            <Link :href="`/user/transactions/${transaction.id}`"><i class='bx bx-grid-alt'></i></Link>
+                                        <div class="btn-group">
+                                            <Link :href="`/user/transactions/${transaction.id}`" class="btn btn-success btn-space">Lihat Invoice</Link>
                                         </div>
                                     </td>
                                 </tr>

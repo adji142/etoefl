@@ -13,6 +13,8 @@
                         <ol class="breadcrumb mb-0 p-0">
                             <li class="breadcrumb-item"><a href="javascript:;"><i class="bx bx-home-alt"></i></a>
                             </li>
+                            <li class="breadcrumb-item"><a href="/admin/students" >Daftar Member</a>
+                            </li>
                             <li class="breadcrumb-item active" aria-current="page">Data Member</li>
                         </ol>
                     </nav>
@@ -22,11 +24,11 @@
 
             <div class="card">
                 <div class="card-body">
-                    <div class="d-lg-flex align-items-center">
+                    <!-- <div class="d-lg-flex align-items-center">
                         <div class="ms-auto">
                             <Link href="/admin/students" class="btn btn-primary mt-2 mt-lg-0">Kembali</Link>
                         </div>
-                    </div>
+                    </div> -->
                     <div class="table-responsive">
                         <br>
                         <div v-if="$page.props.session.error" class="alert alert-danger border-0 alert-dismissible fade show">

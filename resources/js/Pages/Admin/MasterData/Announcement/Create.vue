@@ -13,6 +13,7 @@
                         <ol class="breadcrumb mb-0 p-0">
                             <li class="breadcrumb-item"><a href="javascript:;"><i class="bx bx-home-alt"></i></a>
                             </li>
+                            <li class="breadcrumb-item"><a href="/admin/announcements" >Daftar Pengumuman</a></li>
                             <li class="breadcrumb-item active" aria-current="page">Tambah Pengumuman</li>
                         </ol>
                     </nav>
@@ -22,11 +23,6 @@
 
             <div class="card">
                 <div class="card-body">
-                    <div class="d-lg-flex align-items-center">
-                        <div class="ms-auto">
-                            <Link href="/admin/announcements" class="btn btn-primary mt-2 mt-lg-0">Kembali</Link>
-                        </div>
-                    </div>
                     <form @submit.prevent="submit" class="row g-3">
                         <div class="col-12">
                             <label class="form-label">Judul</label>

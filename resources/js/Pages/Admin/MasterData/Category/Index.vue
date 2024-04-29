@@ -58,9 +58,9 @@
                                         </div>
                                     </td>
                                     <td>
-                                        <div class="d-flex order-actions">
-                                            <Link :href="`/admin/categories/${category.id}/edit`" class="ms-2"><i class='bx bxs-edit'></i></Link>
-                                            <a href="#" @click.prevent="destroy(category.id)" class="ms-2"><i class="bx bxs-trash"></i></a>
+                                        <div class="btn-group">
+                                            <Link :href="`/admin/categories/${category.id}/edit`" class="btn btn-success btn-space">Edit</Link>
+                                            <a href="#" @click.prevent="destroy(category.id)" class="btn btn-danger btn-space">Delete</a>
                                         </div>
                                     </td>
                                 </tr>

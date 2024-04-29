@@ -8,8 +8,11 @@
 
 /*--------------------------------------------------------------
 # Font & Color Variables
-# Help: https://bootstrapmade.com/color-system/
---------------------------------------------------------------*/
+# Help: https://bootstrapmade.com/color-system/  #008cff
+--------------------------------------------------------------
+-- Main Color #0d6efd
+-- Hover Color #008cff
+*/ 
 /* Fonts */
 :root {
   --default-font: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -25,7 +28,7 @@
   --default-color-rgb: 68, 68, 68;
   --heading-color: #37423b;
   --heading-color-rgb: 55, 66, 59;
-  --accent-color: #5fcf80;
+  --accent-color: #008cff;
   --accent-color-rgb: 95, 207, 128;
   --contrast-color: #ffffff;
   --contrast-color-rgb: 255, 255, 255;
@@ -34,9 +37,9 @@
 /* Nav Menu Colors */
 :root {
   --nav-color: #272828;
-  --nav-hover-color: #5fcf80;
+  --nav-hover-color: #008cff;
   --nav-dropdown-color: #272828;
-  --nav-dropdown-hover-color: #5fcf80;
+  --nav-dropdown-hover-color: #008cff;
   --nav-dropdown-background-color: #ffffff;
 }
 

@@ -13,7 +13,7 @@
                         <ol class="breadcrumb mb-0 p-0">
                             <li class="breadcrumb-item"><a href="javascript:;"><i class="bx bx-home-alt"></i></a>
                             </li>
-                            <li class="breadcrumb-item active" aria-current="page">Data Kategori Penilaian</li>
+                            <li class="breadcrumb-item active" aria-current="page">Detail Penilaian</li>
                         </ol>
                     </nav>
                 </div>
@@ -54,9 +54,9 @@
                                     <td>{{ detailValueCategory.max_grade }}</td>
                                     <td>{{ detailValueCategory.final_grade }}</td>
                                     <td>
-                                        <div class="d-flex order-actions">
-                                            <Link :href="`/admin/value-categories/${valueCategory.id}/detail-value-categories/${detailValueCategory.id}/edit`" class="ms-2"><i class='bx bxs-edit'></i></Link>
-                                            <a href="#" @click.prevent="destroy(detailValueCategory.id)" class="ms-2"><i class="bx bxs-trash"></i></a>
+                                        <div class="btn-group">
+                                            <Link :href="`/admin/value-categories/${valueCategory.id}/detail-value-categories/${detailValueCategory.id}/edit`" class="btn btn-success btn-space">Edit</Link>
+                                            <a href="#" @click.prevent="destroy(detailValueCategory.id)" class="btn btn-danger btn-space">Delete</a>
                                         </div>
                                     </td>
                                 </tr>
