@@ -44,7 +44,7 @@
       <a href="index.html" class="logo d-flex align-items-center me-auto">
         <!-- Uncomment the line below if you also wish to use an image logo -->
         <!-- <img src="assets/img/logo.png" alt=""> -->
-        <h1 >My LIA</h1>
+        <p><font size="6">My </font> <h1 > LIA</h1></p>
       </a>
 
       <nav id="navmenu" class="navmenu">
@@ -73,9 +73,9 @@
 
       <div class="container">
         <h2 data-aos="fade-up" data-aos-delay="100" class="">SELAMAT DATANG<br>TOEFL & TOEIC ONLINE TEST</h2>
-        <p data-aos="fade-up" data-aos-delay="200">My LIA adalah platform untuk melakukan prediksi test yang terdiri dari banyak pilihan paket paket soal. Apakah Kamu Sudah punya akun ? <a href = "#"> Masuk Sekarang </a> kerjakan Test dan dapatkan e-Sertifikat sekarang juga.</p>
+        <p data-aos="fade-up" data-aos-delay="200">My LIA adalah platform untuk melakukan prediksi test yang terdiri dari banyak pilihan paket paket soal. Apakah Kamu Sudah punya akun ? <a href = "https://mylia.aissystem.org/login"> Masuk Sekarang </a> kerjakan Test dan dapatkan e-Sertifikat sekarang juga.</p>
         <div class="d-flex mt-4" data-aos="fade-up" data-aos-delay="300">
-          <a href="courses.html" class="btn-get-started">Daftar My LIA</a>
+          <a href="https://mylia.aissystem.org/register" class="btn-get-started">Daftar My LIA</a>
         </div>
       </div>
 
@@ -129,7 +129,7 @@
                   dan dapatkan sertifikat nya.
                 </p>
                 <div class="text-center">
-                  <a href="#" class="more-btn"><span>Daftar</span> <i class="bi bi-chevron-right"></i></a>
+                  <a href="https://mylia.aissystem.org/register" class="more-btn"><span>Daftar</span> <i class="bi bi-chevron-right"></i></a>
                 </div>
               </div>
             </div><!-- End Why Box -->
