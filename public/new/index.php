@@ -72,7 +72,7 @@
       <img src="assets/img/hero-bg.jpg" alt="" data-aos="fade-in">
 
       <div class="container">
-        <h2 data-aos="fade-up" data-aos-delay="100" class="">SELAMAT DATANG<br>TOEFL & TOEIC ONLINE TEST</h2>
+        <h2 data-aos="fade-up" data-aos-delay="100" class="">SELAMAT DATANG<br>TOEIC ONLINE TEST</h2>
         <p data-aos="fade-up" data-aos-delay="200">My LIA adalah platform untuk melakukan prediksi test yang terdiri dari banyak pilihan paket paket soal. Apakah Kamu Sudah punya akun ? <a href = "https://mylia.aissystem.org/login"> Masuk Sekarang </a> kerjakan Test dan dapatkan e-Sertifikat sekarang juga.</p>
         <div class="d-flex mt-4" data-aos="fade-up" data-aos-delay="300">
           <a href="https://mylia.aissystem.org/register" class="btn-get-started">Daftar My LIA</a>
@@ -125,7 +125,7 @@
               <div class="why-box">
                 <h3>Cara Kerja My LIA</h3>
                 <p>
-                  Platform yang mudah digunakan akan mempermudah anda dalam melakukan Ujian TOEFL / TOEIC
+                  Platform yang mudah digunakan akan mempermudah anda dalam melakukan Ujian TOEIC
                   dan dapatkan sertifikat nya.
                 </p>
                 <div class="text-center">

@@ -55,7 +55,7 @@
                         <div v-if="form.type == 2" class="col-12">
                             <label class="form-label"><b>Direction</b></label>
                             <Editor
-                                api-key="958z2qj9q76pfd7ryf02bwbov0y5exsjrzc82ir659sv46wn"
+                                api-key="eadr6nvvbqyre9bvvnh05ugt00j9hutowfg0skm1k18w74iy"
                                 v-model="form.direction"
                                 :init="{
                                     automatic_uploads: true,
@@ -137,7 +137,7 @@
                         <div v-if="form.type == 1" class="col-12">
                             <label class="form-label"><b>Soal</b></label>
                             <Editor
-                                api-key="958z2qj9q76pfd7ryf02bwbov0y5exsjrzc82ir659sv46wn"
+                                api-key="eadr6nvvbqyre9bvvnh05ugt00j9hutowfg0skm1k18w74iy"
                                 v-model="form.question"
                                 :init="{
                                     automatic_uploads: true,
@@ -190,7 +190,7 @@
                         <div v-if="1 <= questionTitle.total_choices && form.type == 1" class="col-12">
                             <label class="form-label"><b>Pilihan A</b></label>
                             <Editor
-                                api-key="958z2qj9q76pfd7ryf02bwbov0y5exsjrzc82ir659sv46wn"
+                                api-key="eadr6nvvbqyre9bvvnh05ugt00j9hutowfg0skm1k18w74iy"
                                 v-model="form.option_1"
                                 :init="{
                                     automatic_uploads: true,
@@ -239,7 +239,7 @@
                         <div v-if="2 <= questionTitle.total_choices && form.type == 1" class="col-12">
                             <label class="form-label"><b>Pilihan B</b></label>
                             <Editor
-                                api-key="958z2qj9q76pfd7ryf02bwbov0y5exsjrzc82ir659sv46wn"
+                                api-key="eadr6nvvbqyre9bvvnh05ugt00j9hutowfg0skm1k18w74iy"
                                 v-model="form.option_2"
                                 :init="{
                                     automatic_uploads: true,
@@ -289,7 +289,7 @@
                         <div v-if="3 <= questionTitle.total_choices && form.type == 1" class="col-12">
                             <label class="form-label"><b>Pilihan C</b></label>
                             <Editor
-                                api-key="958z2qj9q76pfd7ryf02bwbov0y5exsjrzc82ir659sv46wn"
+                                api-key="eadr6nvvbqyre9bvvnh05ugt00j9hutowfg0skm1k18w74iy"
                                 v-model="form.option_3"
                                 :init="{
                                     automatic_uploads: true,
@@ -339,7 +339,7 @@
                         <div v-if="4 <= questionTitle.total_choices && form.type == 1" class="col-12">
                             <label class="form-label"><b>Pilihan D</b></label>
                             <Editor
-                                api-key="958z2qj9q76pfd7ryf02bwbov0y5exsjrzc82ir659sv46wn"
+                                api-key="eadr6nvvbqyre9bvvnh05ugt00j9hutowfg0skm1k18w74iy"
                                 v-model="form.option_4"
                                 :init="{
                                     automatic_uploads: true,
@@ -389,7 +389,7 @@
                         <div v-if="5 <= questionTitle.total_choices && form.type == 1" class="col-12">
                             <label class="form-label"><b>Pilihan E</b></label>
                             <Editor
-                                api-key="958z2qj9q76pfd7ryf02bwbov0y5exsjrzc82ir659sv46wn"
+                                api-key="eadr6nvvbqyre9bvvnh05ugt00j9hutowfg0skm1k18w74iy"
                                 v-model="form.option_5"
                                 :init="{
                                     automatic_uploads: true,
@@ -454,7 +454,7 @@
                         <div v-if="form.type == 1" class="col-12">
                             <label class="form-label"><b>Pembahasan</b></label>
                             <Editor
-                                api-key="958z2qj9q76pfd7ryf02bwbov0y5exsjrzc82ir659sv46wn"
+                                api-key="eadr6nvvbqyre9bvvnh05ugt00j9hutowfg0skm1k18w74iy"
                                 v-model="form.discussion"
                                 :init="{
                                     automatic_uploads: true,

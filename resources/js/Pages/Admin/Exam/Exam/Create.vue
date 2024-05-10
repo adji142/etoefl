@@ -87,7 +87,7 @@
                         <div class="col-12">
                             <label class="form-label">Deskripsi Ujian</label>
                             <Editor
-                                api-key="958z2qj9q76pfd7ryf02bwbov0y5exsjrzc82ir659sv46wn"
+                                api-key="eadr6nvvbqyre9bvvnh05ugt00j9hutowfg0skm1k18w74iy"
                                 v-model="form.description"
                                 :init="{
                                     images_upload_url: 'https://wakalahmu.com/admin/upload',
