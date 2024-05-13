@@ -860,12 +860,12 @@
     "file": "assets/Layout.fb8a93bd.css",
     "src": "Layout.css"
   },
-  "resources/js/Pages/Auth/Login.css": {
-    "file": "assets/Login.da842b62.css",
-    "src": "resources/js/Pages/Auth/Login.css"
-  },
   "resources/js/Pages/Auth/Register.css": {
     "file": "assets/Register.83951b13.css",
     "src": "resources/js/Pages/Auth/Register.css"
+  },
+  "resources/js/Pages/Auth/Login.css": {
+    "file": "assets/Login.da842b62.css",
+    "src": "resources/js/Pages/Auth/Login.css"
   }
 }
