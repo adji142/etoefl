@@ -257,6 +257,9 @@ figure {
 img, svg {
 	vertical-align: middle
 }
+.prevent-select img {
+	width: 100% !important;
+}
 table {
 	caption-side: bottom;
 	border-collapse: collapse

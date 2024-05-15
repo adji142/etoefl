@@ -1,8 +1,8 @@
 <template>
     <Head>
         <title>{{ appName }} - Ujian</title>
-        style
     </Head>
+    
     <!--start page wrapper -->
     <div class="fullscreen-wrapper">
         <div class="container" style="margin-top: 100px;margin-bottom: 100px;">
@@ -194,7 +194,6 @@
     </div>
 
 </template>
-
 <script>
     //import layout admin
     import LayoutUser from '../../../../Layouts/LayoutUser.vue';
